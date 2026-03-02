@@ -1,0 +1,39 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { profile } from "@/settings";
+import BetterIcon from "@/components/ui/BetterIcon.astro";
+import List from "@/components/ui/List.astro";
+---
+
+<Layout title="Music">
+  <div class="prose max-w-none">
+    <h1 class="text-3xl font-bold mb-8">Music</h1>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-6">Song of the Month</h2>
+      <iframe
+        style="border-radius:12px"
+        src="https://open.spotify.com/embed/track/5y2ijHECwFYWqcAHKTZgzD?utm_source=generator"
+        width="100%"
+        height="352"
+        frameBorder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+      ></iframe>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-bold mb-6">Selected Compositions</h2>
+      <iframe
+        width="100%"
+        height="166"
+        scrolling="no"
+        frameBorder="no"
+        allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/qiaoyu-yang-387864946/come-to-your-land&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+        loading="lazy"
+      ></iframe>
+    </section>
+  </div>
+</Layout>

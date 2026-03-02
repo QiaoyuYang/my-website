@@ -8,12 +8,11 @@ const {fullName, title, institute, profilePicture} = Astro.props
 ---
 <div class='flex-1'>
   <h1 class='text-4xl font-bold mb-4'>
-    Welcome! I'm <span class='text-secondary'>{fullName}</span>
+    Hey! I'm <span class='text-[#AA381E]'>Kelvin</span>
   </h1>
   <p class='text-xl text-gray-600 mb-4'>{title}{institute ? ` at ${institute}` : ''}</p>
   <p class='text-lg mb-6'>
-    Brief impactful description of your research focus and academic mission.
-    Highlight your key contributions and areas of expertise.
+    I am a second-year PhD student in music technology at Georgia Tech. My research focuses on 1) controllability and explainability of generative music models. 2) music information retrieval informed by domain knowledge in music theory/audio DSP.
   </p>
   <div class='flex gap-4'>
     <SocialIcons />

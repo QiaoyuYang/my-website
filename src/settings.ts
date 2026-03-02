@@ -1,5 +1,5 @@
 export const profile = {
-	fullName: 'Your Name',
+	fullName: 'Kelvin (Qiaoyu) Yang',
 	title: '',
 	institute: '',
 	author_name: '', // Author name to be highlighted in the papers section
@@ -10,13 +10,13 @@ export const profile = {
 
 // Set equal to an empty string to hide the icon that you don't want to display
 export const social = {
-	email: '',
-	linkedin: '',
-	x: 'https://www.x.com/',
+	email: 'qyang312@gatech.edu',
+	linkedin: 'https://www.linkedin.com/in/qiaoyu-yang-212150130/',
+	x: '',
 	bluesky: '',
-	github: '',
+	github: 'https://github.com/QiaoyuYang',
 	gitlab: '',
-	scholar: '',
+	scholar: 'https://scholar.google.com/citations?user=GYv3o7UAAAAJ&hl=en',
 	inspire: '',
 	arxiv: '',
 	orcid: '',

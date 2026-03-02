@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro'
 
 import { profile } from '@/settings'
 import { publications } from '@/data/cv'
-import ProfilePictures from '@/assets/profile_pictures.jpg'
+import ProfilePictures from '@/assets/profile_picture.jpeg'
 import Hero from '@/components/ui/Hero.astro'
 import Grid from '@/components/ui/Grid.astro'
 import ArticleList from '@/components/ui/ArticleList.astro'
@@ -25,10 +25,12 @@ const { fullName, title, institute, research_areas } = profile
 		/>
 	</section>
 
-	<!-- Research Areas -->
+	<!-- Song of the Month -->
 	<section class='py-12 border-b'>
-		<Grid gridTitle='Research Areas' gridItems={research_areas} />
+		<Grid gridTitle='Song of the Month' gridItems={research_areas} />
+		<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/5y2ijHECwFYWqcAHKTZgzD?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 	</section>
+	
 
 	<!-- Recent Publications -->
 	<section class='py-12 border-t'>
