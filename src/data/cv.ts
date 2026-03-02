@@ -63,7 +63,7 @@ export const publications = [
 		title: 'Toward noise-robust whisper keyword spotting on headphones with in-earcup microphone and curriculum learning',
 		authors: 'Qiaoyu Yang, Shuo Zhang, Chuan-Che Jeff Huang',
 		journal: 'ICASSP',
-		time: '2024',
+		time: '2025',
 		link: 'https://ieeexplore.ieee.org/document/10890176',
 		abstract: '',
 	},
